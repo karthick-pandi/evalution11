@@ -7,7 +7,7 @@ const Tasks = ({data}) => {
   return (
     <>
       <ul data-cy="tasks" className={styles.tasks}>
-        {/* Task List */}
+    <Task todo={data}/>
       </ul>
       <div data-cy="tasks-empty" className={styles.empty}>
         {/* Show when No Tasks are present */}
